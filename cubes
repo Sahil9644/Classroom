@@ -1,0 +1,21 @@
+package classwork;
+
+import java.util.Scanner;
+
+public class cubes {
+
+	public static void main(String[] args) 
+	{
+		int s,i,m;
+		System.out.println("Enter a number till where you want to see the cubes");
+		Scanner sc=new Scanner(System.in);
+		s=sc.nextInt();
+		for(i=1;i<=s;i++)
+		{
+			m=i*i*i;
+			System.out.println(m);
+		}
+
+	}
+
+}
