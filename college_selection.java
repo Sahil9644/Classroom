@@ -22,16 +22,19 @@ public class college_selection
 		   	if(d==1)
 		   	{
 				System.out.print("Congratulations for choosing stream");
+				ch=7;
 		    }
 		   	
 			break;
 		case 2:
-			System.out.println("The subjects in CSE are : \nArtificial Intelligence \nEmbedded Systems \nComputer Graphics \nProbability Theory For Computer Engineers \nDigital Image Processing \nMachine Learning \nNetwork Programming \nSoftware Project Management.");
+			System.out.println("The subjects in CSE are : \n1:Artificial Intelligence \n2:Embedded Systems \n3:Computer Graphics \n4:Probability Theory For Computer Engineers \n5:Digital Image Processing \n6:Machine Learning \n7:Network Programming \n8:Software Project Management.");
 			System.out.println("Do you want to continue \n1:To continue \n2:for Main menu selection");
 		   	d=sc.nextInt();
 		   	if(d==1)
 		   	{
-				System.out.print("Congratulations for choosing stream");
+				
+		   		System.out.print("Congratulations for choosing stream");
+		   		ch=7;
 		    }
 		   	
 			break;
@@ -44,6 +47,7 @@ public class college_selection
 	   	if(d==1)
 	   	{
 			System.out.print("Congratulations for choosing stream");
+			ch=7;
 	    }
 	   	break;
 	   	
@@ -55,6 +59,7 @@ public class college_selection
 		   	if(d==1)
 		   	{
 				System.out.print("Congratulations for choosing stream");
+				ch=7;
 		    }
 		   	break;
 		    
@@ -72,6 +77,7 @@ public class college_selection
 		   	if(d==1)
 		   	{
 				System.out.print("Congratulations for choosing stream");
+				ch=7;
 		    }
 		   	
 			break;
@@ -88,6 +94,7 @@ public class college_selection
 		   	if(d==1)
 		   	{
 				System.out.print("Congratulations for choosing stream");
+				ch=7;
 		    }
 		   	
 			break;
